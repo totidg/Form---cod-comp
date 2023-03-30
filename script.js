@@ -39,7 +39,7 @@ function createRow(event) {
 
   // se le agrega una nueva tabla.
 
-  document.querySelector('#tabla tbody').appendChild(tableRow);
+  document.querySelector('tbody').appendChild(tableRow);
   
   // cada vez que se agregue un usuario, se limpian los datos.
 
