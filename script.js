@@ -39,11 +39,8 @@ function createRow(event) {
 
   // se le agrega una nueva tabla.
 
-  document
-    .getElementById('tabla')
-    .getElementsByTagName('tbody')[0]
-    .appendChild(tableRow);
-
+  document.querySelector('#tabla tbody').appendChild(tableRow);
+  
   // cada vez que se agregue un usuario, se limpian los datos.
 
  form.reset();
